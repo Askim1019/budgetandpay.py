@@ -30,12 +30,14 @@ print("netpay for the month is $", netpay_month)
 netpay_year = netpay_month * 12
 print("netpay for the year is $", netpay_year)
 print()
+print()
+print()
 
 x = 5
 while x == 5:
-    inp1 = input('Enter expense name(if there are no expenses type "no more" and press Enter: ')
-    if inp1 == 'no more':
-        print("Total yearly expense is $0")
+    inp1 = input('Enter expense name(if there are no more expenses type "none" and press Enter: ')
+    if inp1 == 'none':
+        print("End of monthly expenses")
         break
     else:
         inp = input("Enter minimum monthly payment: $")
@@ -44,10 +46,11 @@ while x == 5:
         expyear = expmonth * 12
         print("Total yearly expense of ", inp1, " is $", expyear)
         print()
-        print("Total yearly expense of ", inp1, " is $", expmonth)
+        print("Total monthly expense of ", inp1, " is $", expmonth)
         print()
-        
-
+        print()
+        print()
+        print()
         
 
 
