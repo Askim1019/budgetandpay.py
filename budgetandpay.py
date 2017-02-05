@@ -34,6 +34,7 @@ print()
 print()
 
 x = 5
+totmonth = 0
 while x == 5:
     inp1 = input('Enter expense name(if there are no more expenses type "none" and press Enter: ')
     if inp1 == 'none':
@@ -48,10 +49,8 @@ while x == 5:
         print()
         print("Total monthly expense of ", inp1, " is $", expmonth)
         print()
-        print()
-        print()
-        print()
-        
+        totmonth += expmonth
+        print("Total monthly expenses", totmonth)
 
 
 
